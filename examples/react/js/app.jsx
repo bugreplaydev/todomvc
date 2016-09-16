@@ -55,7 +55,7 @@ var app = app || {};
 		},
 
 		toggleAll: function (event) {
-			var checked = event.target.checked;
+			var checked = evnt.target.checked;
 			this.props.model.toggleAll(checked);
 		},
 
